@@ -1,3 +1,7 @@
+# 
+# This is demo template and it's NOT WORKING
+# 
+---
 apiVersion: v1
 kind: Pod
 metadata:
