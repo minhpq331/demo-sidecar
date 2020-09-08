@@ -3,14 +3,14 @@
 # 
 ---
 apiVersion: v1
-kind: Pod
+kind: Pod                           
 metadata:
-  name: demo-sidecar
+  name: demo-sidecar                # Pod name
   labels:
-    something: something-else 
+    something: something-else       # Pod label
 spec:
-  containers:
-    - name: web
-      image: some-image
+  containers:                       # Array of containers
+    - name: web                     # Container name
+      image: some-image             # Container image
       ports:
-        - containerPort: 8080
+        - containerPort: 8080       # Expose container port
