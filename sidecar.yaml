@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: demo-sidecar
+  labels:
+    something: something-else 
+spec:
+  containers:
+    - name: web
+      image: some-image
+      ports:
+        - containerPort: 8080
