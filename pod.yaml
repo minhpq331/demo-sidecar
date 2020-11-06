@@ -5,7 +5,7 @@
 apiVersion: v1
 kind: Pod                           
 metadata:
-  name: demo-sidecar                # Pod name
+  name: demo-pod                # Pod name
   labels:
     something: something-else       # Pod label
 spec:
